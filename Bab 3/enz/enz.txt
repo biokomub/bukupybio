@@ -1,0 +1,165 @@
+ENTRY       EC 1.14.14.179              Enzyme
+NAME        brassinosteroid 6-oxygenase;
+            CYP85A1 (gene name);
+            CYP85A2 (gene name);
+            brassinosteroid 6-oxidase
+CLASS       Oxidoreductases;
+            Acting on paired donors, with incorporation or reduction of molecular oxygen;
+            With reduced flavin or flavoprotein as one donor, and incorporation of one atom of oxygen into the other donor
+SYSNAME     6-deoxocastasterone,NADPH---hemoprotein reductase:oxygen 6-oxidoreductase (castasterone-forming)
+REACTION    6-deoxocastasterone + 2 O2 + 2 [reduced NADPH---hemoprotein reductase] = castasterone + 3 H2O + 2 [oxidized NADPH---hemoprotein reductase] (overall reaction) [RN:R10669];
+            (1a) 6-deoxocastasterone + O2 + [reduced NADPH---hemoprotein reductase] = 6alpha-hydroxy-6-deoxocastasterone + H2O + [oxidized NADPH---hemoprotein reductase] [RN:R07450];
+            (1b) 6alpha-hydroxy-6-deoxocastasterone + O2 + [reduced NADPH---hemoprotein reductase] = castasterone + 2 H2O + [oxidized NADPH---hemoprotein reductase] [RN:R07451]
+ALL_REAC    R07450 R07451 R10669;
+            (other) R07455 R07457 R07458
+SUBSTRATE   6-deoxocastasterone [CPD:C15802];
+            O2 [CPD:C00007];
+            [reduced NADPH---hemoprotein reductase] [CPD:C03024];
+            6alpha-hydroxy-6-deoxocastasterone
+PRODUCT     castasterone [CPD:C15794];
+            H2O [CPD:C00001];
+            [oxidized NADPH---hemoprotein reductase] [CPD:C03161];
+            6alpha-hydroxy-6-deoxocastasterone
+COMMENT     This cytochrome P-450 (heme thiolate) plant enzyme catalyses the C-6 hydoxylation of several brassinosteroid biosynthesis intermediates, and the further oxidation of the hydroxyl group to an oxo group. Substrates include 6-deoxocastasterone, 6-deoxotyphasterol, 3-dehydro-6-deoxoteasterone, and 6-deoxoteasterone. The CYP85A2 isozyme of Arabidopsis thaliana (but not the CYP85A1 isozyme) also catalyses the activity of EC 1.14.14.180, brassinolide synthase.
+HISTORY     EC 1.14.14.179 created 2022
+REFERENCE   1  [PMID:11402205]
+  AUTHORS   Shimada Y, Fujioka S, Miyauchi N, Kushiro M, Takatsuto S, Nomura T, Yokota T, Kamiya Y, Bishop GJ, Yoshida S
+  TITLE     Brassinosteroid-6-oxidases from Arabidopsis and tomato catalyze multiple C-6 oxidations in brassinosteroid biosynthesis.
+  JOURNAL   Plant Physiol 126:770-9 (2001)
+            DOI:10.1104/pp.126.2.770
+  SEQUENCE  [ath:AT5G38970] [sly:100037489]
+REFERENCE   2  [PMID:21364326]
+  AUTHORS   Perez-Espana VH, Sanchez-Leon N, Vielle-Calzada JP.
+  TITLE     CYP85A1 is required for the initiation of female gametogenesis in Arabidopsis thaliana.
+  JOURNAL   Plant Signal Behav 6:321-6 (2011)
+            DOI:10.4161/psb.6.3.13206
+PATHWAY     ec00905  Brassinosteroid biosynthesis
+            ec01100  Metabolic pathways
+            ec01110  Biosynthesis of secondary metabolites
+ORTHOLOGY   K09590  brassinosteroid 6-oxygenase
+            K12640  brassinosteroid 6-oxygenase / brassinolide synthase
+            K25959  brassinosteroid 6-oxygenase / brassinolide synthase
+GENES       ATH: AT3G30180(BR6OX2) AT5G38970(BR6OX1)
+            ALY: 9306879 9311596
+            CRB: 17880458 17885676
+            CSAT: 104710811 104719559 104724260 104732939 104780197 104790595
+            EUS: EUTSA_v10004156mg EUTSA_v10027742mg
+            BRP: 103837220 103854484 103864167 103875063
+            BNA: 106346024 106349108 106363995 106397123 106400040 106410432 106410433 106411244 106449738
+            BOE: 106301844 106316572 106339725
+            RSZ: 108807315 108825972 108837548 108849348
+            THJ: 104805522 104822777 104823884
+            CPAP: 110820131 110823995
+            CIT: 102613870 102627864
+            CIC: CICLE_v10011662mg CICLE_v10031449mg
+            PVY: 116109710 116132910
+            MINC: 123198264 123213958 123216775 123226215
+            TCC: 18601740 18610219
+            GRA: 105781807 105789387 105801672
+            GHI: 107894854 107910165 107919617 107954898 121219372 121232120
+            GAB: 108453607 108463311 108482799
+            DZI: 111283830 111306268 111313564 111317590
+            EGR: 104419439 104422041 104422043 104422045 104429916 104429918
+            GMX: 100779967 100785414 100805958 100818004 100818290
+            GSJ: 114372680 114381879 114395015 114399240 114423881
+            PVU: PHAVU_003G040300g PHAVU_004G041700g PHAVU_008G028800g
+            VRA: 106753400 106758156 106779292
+            VAR: 108326910 108335521 108344744
+            VUN: 114166182 114181354 114183716
+            CCAJ: 109796264 109797613 109813276 109818989
+            APRC: 113861763 113867653 113869100 113869572
+            MTR: 11422367 25495426 25497603
+            CAM: 101509866 101510185 101510551
+            PSAT: 127115423 127115432 127120958 127128705
+            LJA: Lj0g3v0092539.1(Lj0g3v0092539.1) Lj0g3v0228369.1(Lj0g3v0228369.1) Lj2g3v1241200.1(Lj2g3v1241200.1) Lj2g3v1241200.2(Lj2g3v1241200.2) Lj2g3v1241200.3(Lj2g3v1241200.3) Lj2g3v1241200.4(Lj2g3v1241200.4)
+            ADU: 107471377 107486576
+            AIP: 107623811 107637361
+            AHF: 112716544 112716545 112744628 112784627 112784628 112797930
+            LANG: 109330371 109335133 109347392 109359433 109359685 109360156
+            FVE: 101313910
+            RCN: 112190949
+            PPER: 18782277
+            PMUM: 103329572
+            PAVI: 110759051
+            PDUL: 117623030
+            MDM: 103404651 103442442
+            PXB: 103926586 103962743
+            ZJU: 107429039
+            MNT: 21401153 21409111
+            CSV: 101204494 101206858
+            CMO: 103495886 103498545
+            BHJ: 120079745
+            MCHA: 111006661
+            CMAX: 111487713 111489110
+            CMOS: 111445417 111455792
+            CPEP: 111788371 111808466
+            RCU: 8277307
+            JCU: 105630569 105646746
+            HBR: 110648160 110655288 110672384 110672390
+            MESC: 110609099 110615056 110619853
+            POP: 18107339 7468141 7480593
+            PEU: 105113937 105119329 105123253
+            PALZ: 118042705 118043350 118055061
+            JRE: 108987930 108989489
+            QSU: 111985795 112004758 112004759 112006726
+            QLO: 115976259 115981444 115981445
+            TWL: 119993370 120011335 120017232
+            VVI: 100232983(BR6OX1) 100257818 100262943
+            VRI: 117923784 117925175 117929660
+            SLY: 100037489(CYP85A1) 100136888(CYP85A3)
+            SPEN: 107009077 107010718
+            SOT: 102599687 102603315
+            SSTN: 125848344 125849224
+            CANN: 107860427 107861006
+            NTA: 107760973 107776096 107780292 107789559
+            NSY: 104211653 104214321
+            NTO: 104092995 104103228
+            NAU: 109212730 109222927
+            INI: 109153620 109173064 109180625 109189067
+            ITR: 115999955 116013189 116013963 116019775
+            SIND: 105156751 105177542
+            OEU: 111374568 111381944 111409964
+            EGT: 105952596 105971548
+            SSPL: 121754265 121755396 121767430 121770076
+            HAN: 110911035 110921448
+            ECAD: 122579005 122589730
+            LSV: 111876869
+            CCAV: 112513235 112515661
+            DCR: 108193941 108194607 108213230
+            CSIN: 114256381 114306437
+            BVG: 104906946
+            SOE: 110793171
+            CQI: 110703563 110705784
+            NNU: 104597895 104599689 104609612
+            MING: 122075756 122078986
+            TSS: 122655820 122663736
+            PSOM: 113275767 113281843
+            OSA: 4333399
+            DOSA: Os03t0602300-01(Os03g0602300)
+            OBR: 102700319
+            BDI: 100837653
+            ATS: 109777766 109777767 109777768 109777769 109777770
+            TDC: 119352698 119352699 119358574 119358575 119360155 119361707 119361709 119366782 119366783
+            TAES: 123038724 123039915 123043102 123043103 123048178 123048179 123050998 123051000 123051001 123184190 123186954 123186955 123186956
+            TUA: 125534977 125540566 125540569 125540570
+            LPER: 127333421
+            SBI: 8062533
+            ZMA: 100193331
+            SITA: 101770408
+            SVS: 117838234
+            PVIR: 120650403 120692586
+            PHAI: 112875680
+            PDA: 103696100 103704209 103704493 103722877
+            EGU: 105046675 105056073 105057148 105058109
+            MUS: 103975616 103982137 103986539 103996475
+            DCT: 110095594 110112633
+            PEQ: 110030284 110033615 110034826 110039402
+            AOF: 109822473 109825906 109845117 109846361
+            NCOL: 116258091 116258773
+            ATR: 18446218 18446219
+            PPP: 112292180
+DBLINKS     ExplorEnz - The Enzyme Database: 1.14.14.179
+            IUBMB Enzyme Nomenclature: 1.14.14.179
+            ExPASy - ENZYME nomenclature database: 1.14.14.179
+            BRENDA, the Enzyme Database: 1.14.14.179
+///
