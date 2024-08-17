@@ -7,7 +7,7 @@ Repositori ini repositori dari kode dan tutorial pendamping buku **Bioinformatik
 <img width="300" src="https://github.com/biokomub/bukupybio/blob/main/assets/cover.jpg">
 </p>
 
-Buku ini ditulis oleh Brian Rahardi dan Maulana Malik Nashrulloh. Buku ini terbit terbatas pada 21 Maret 2024 dan publik pada 17 Agustus 2023 dan diterbitkan oleh penerbit Genbinesia Press, sayap penerbitan Generasi Biologi Indonesia (https://genbinesia.or.id/).
+Buku ini ditulis oleh Brian Rahardi dan Maulana Malik Nashrulloh. Buku ini terbit terbatas pada 21 Maret 2024 dan publik pada 17 Agustus 2024 dan diterbitkan oleh penerbit Genbinesia Press, sayap penerbitan Generasi Biologi Indonesia (https://genbinesia.or.id/).
 
 ## Sitasi
 
