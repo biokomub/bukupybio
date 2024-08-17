@@ -1,0 +1,13 @@
+(
+(
+Burkholderia_cepacia_strain_B9:0.00111,
+Burkholderia_cepacia_strain_ZG7:0.00293)
+:0.03374,
+(
+Ralstonia_solanacearum_strain_SL2029:0.01854,
+Cupriavidus_gilardii_strain_CR3:0.01644)
+:0.02452,
+(
+Pseudomonas_aeruginosa_DSM50071:0.07429,
+Bacillus_thuringiensis_strain_B20:0.13066)
+:0.05137);
