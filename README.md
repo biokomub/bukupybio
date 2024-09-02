@@ -18,4 +18,4 @@ Rahardi, B., Nashrulloh, M.M. 2024. **Bioinformatika Dasar dengan Python 3**. Ge
 Kritik dan saran dapat disampaikan kepada penulis melalui:
 
 - Dr. Brian Rahardi, S.Si., M.Sc. (rhardi dot brian at gmail dot com atau brian_rahardi at ub dot ac dot id)
-- Maulana Malik Nashrulloh, S.Si. (mmnashrullah at gmail dot com)
+- Maulana Malik Nashrulloh, S.Si., Ph.D. (mmnashrullah at gmail dot com)
